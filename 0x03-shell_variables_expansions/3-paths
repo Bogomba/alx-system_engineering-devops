@@ -1,2 +1,2 @@
 #!/bin/bash
-echo tree $PATH | wc - 1
+$PATH | ls -l | grep -c ^d
