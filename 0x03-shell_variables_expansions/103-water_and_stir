@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $STIR+$WATER | sed ' I/R/W/T/E// ' > bestchol
+echo $STIR+$WATER | tr -d IRWTE > bestchol
